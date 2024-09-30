@@ -1,0 +1,202 @@
+body{
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+video{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo img{
+  position: relative;
+  width: 120%;
+  height: 175%;
+  padding-left:10%;
+  bottom: 10px;
+  
+}
+
+.recommend a{
+display:inline-flex;
+  font-size: large;
+  text-decoration:none;
+  color: rgb(255, 251, 251);
+}
+.recommend h1 {
+  position: relative;
+  left:270px;
+  font-size: large;
+  padding: 10px;
+  bottom: 15px;
+}
+header{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  background-color: #903a86;
+
+}
+
+.search {
+  position: relative;
+  left: 400px;
+  top : 7px ;
+}
+.dropbtn {
+background-color: #dd7f2e;
+color: white;
+padding: 13px;
+font-size: 15px;
+border: none;
+border-radius: 20%;
+cursor: pointer;
+position: relative;
+bottom: 30px;
+}
+
+.dropdown {
+top: 25px;
+position: relative;
+display: inline-block;
+
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+top:14px;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+width: 180px;
+}
+
+.dropdown-content a:hover {background-color: #dd7f2e}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #9c4d07;
+}
+
+header {
+  box-shadow: inset 0 0 0 0 #bdafaf;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  height: 35px;
+}
+
+header:hover {
+  color: #fff;
+  box-shadow: inset 1500px  0 0 #903a86;
+}
+
+
+header {
+  font-family: 'Poppins', sans-serif;
+}
+
+.recommend a:hover{
+  color: #dd7f2e;
+  text-decoration: underline;
+}
+.btn1 {
+  appearance: none;
+  background-image: linear-gradient(rgb(176, 50, 50),rgb(229, 212, 82));
+  border: 2px solid #fbefef;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #e0e0e0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roobert,-apple-system,BlinkMacSystemFont,""Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  max-width: 20%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: -80px;
+}
+
+
+
+.btn1:hover {
+  color: #fff;
+  background-color: #f5713d;
+  box-shadow: rgba(250, 1, 1, 0) 0 8px 15px;
+  transform: translateY(-10px) ;
+  transition: 0.4s;
+}
+
+.btn1:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.annouce{
+  position: relative;
+  width: 60%;
+  right: 50px;
+}
+.schedule{
+  background-image: linear-gradient(#641c71,rgb(0, 0, 0));
+  color: #f3a943;
+  text-shadow: 1px 1px 0 rgb(218, 23, 23);
+  top:-22px;
+  opacity: 90%;
+  position: relative;
+}
+.schedule h1,h2,h3{
+  position: relative;
+  top:70px
+}
+.annouce h2{
+  position: relative;
+  top: -5px;
+}
+.annouce table{
+  position: relative;
+  left: 70px;
+}
+@media screen and (min-width:1460px) {
+ .year1{
+  padding-left:5rem ;
+  height: 100px;
+  width: 80%;
+ }
+ .year2{
+  padding-left:5rem ;
+  height: 100px;
+  width: 80%;
+ }
+ .annouce{
+  padding-left: 14rem;
+  width: 900px;
+ }
+}

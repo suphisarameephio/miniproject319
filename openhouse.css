@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+video{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.logo img{
+ 
+    position: relative;
+    width: 120%;
+    height: 175%;
+    padding-left:10%;
+    bottom: 10px;
+    
+}
+
+
+.recommend h1 {
+    position: relative;
+    left:270px;
+    font-size: large;
+    padding: 10px;
+    bottom: 15px;
+    display:inline-flex;
+    font-size: large;
+    color: rgb(255, 251, 251);
+}
+header{
+  position: relative;
+    padding: 20px;
+    display: flex;
+    background-color: #903a86;
+
+}
+
+.search {
+    position: relative;
+    left: 400px;
+    top : 7px ;
+}
+.dropbtn {
+  background-color: #dd7f2e;
+  color: white;
+  padding: 13px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  position: relative;
+  bottom: 30px;
+}
+
+.dropdown {
+  top: 25px;
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top:14px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 180px;
+}
+
+.dropdown-content a:hover {background-color: #dd7f2e}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #9c4d07;
+}
+header {
+    box-shadow: inset 0 0 0 0 #bdafaf;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    height: 35px;
+  }
+header:hover {
+    color: #fff;
+    box-shadow: inset 1500px  0 0 #903a86;
+  }
+  
+
+header {
+    font-family: 'Poppins', sans-serif;
+  }
+.recommend a:hover{
+    color: #dd7f2e;
+}
+/*copy to the other css*/
+.buhouse h1,p{
+    color: #fff;
+    position: relative; /*absoluteทับกันได้*/
+    left: 9.2%;
+    top: 37px;
+}
+.buhouse iframe{
+  position: absolute;
+  right: 9.5%;
+  top: 15%;
+
+
+}
+.target{
+  position: absolute;
+  left: 17%;
+  top: 440px;
+}
+.expected{
+  position: absolute;
+  left: 44.3%;
+  top: 440px;
+}
+.storie{
+  position: absolute;
+  left: 76.5%;
+  top: 440px;
+}
+.img-bu img{
+    mix-blend-mode: normal; /*ปรับสีรูปภาพ*/
+    width: 300px;
+    height: 150px;
+    position: relative;
+    padding-left: 9%;
+    bottom: -95px;
+    
+}
+.BTtarget{
+  position: absolute;
+  left: 9.5%;
+  top: 630px;
+}
+.BTtarget2{
+  position: absolute;
+  left: 12.5%;
+  top: 650px;
+}
+.BTexpected{
+  position: absolute;
+  left: 42.7%;
+  top: 630px;
+}
+.BTstorie{
+  position: absolute;
+  left: 70.8%;
+  top: 630px;
+}
